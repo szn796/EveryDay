@@ -1,0 +1,13 @@
+DOM是document Object model 文档对象模型
+将整个html文档表示成一个树结构
+在DOM里面由这么几个概念 文档Document 节点Node 元素Element
+
+Documetn 文档是DOM的根节点，表示整个HTML文档。常见的API由
+    document.getElementById
+
+Node 节点是DOM树的基本单元，通过兄弟父子节点组成了DOM树的主要结构。
+    常见的节点由文本节点、元素节点、注释节点。
+    常见的API由增删改查兄弟 父子节点
+
+Element 元素是元素节点。常见的由div 元素 span元素。
+    可以通过Element去操作元素的属性、内容、样式，对元素绑定事件

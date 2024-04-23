@@ -1,0 +1,7 @@
+canvas 是html5提出来的新标签，可以通过配合js绘制图像
+canvas 是位图，放大后会失真
+canvas 一般用来做动态的图像和复杂的交互
+
+svg 是xml的元素
+svg 是矢量图，放大后不会失真
+svg 一般用来做静态图片或者iconfont
